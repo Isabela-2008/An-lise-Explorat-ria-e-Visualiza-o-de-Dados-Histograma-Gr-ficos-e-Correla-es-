@@ -1,0 +1,73 @@
+Enunciado
+O projeto é uma ferramenta para realizar análise exploratória de dados a partir de arquivos CSV. A aplicação carrega dados de URLs, incluindo links do Google Drive, e gera uma série de visualizações para ajudar na compreensão dos dados.
+
+Funcionalidades:
+
+Carregar Dados:
+
+Suporta carregamento de dados a partir de URLs, incluindo arquivos CSV do Google Drive.
+Análise Exploratória:
+
+Exibe as primeiras linhas e informações gerais do DataFrame.
+Mostra estatísticas descritivas das variáveis numéricas.
+Visualizações:
+
+Histograma: Exibe a distribuição de uma variável numérica.
+Gráfico de Barras: Mostra a frequência das categorias de uma variável categórica.
+Gráfico de Pizza: Exibe a distribuição das categorias de uma variável categórica (valores únicos).
+Gráfico de Linha: Plota duas variáveis numéricas ao longo de um eixo.
+Gráfico de Dispersão: Mostra a relação entre duas variáveis numéricas.
+Boxplot: Visualiza a distribuição e outliers das variáveis numéricas.
+Matriz de Correlação: Exibe a correlação entre variáveis numéricas.
+Análise Especializada:
+
+Oferece um espaço para análises e conclusões personalizadas.
+Objetivo: O projeto visa fornecer uma visão geral e detalhada dos dados, facilitando a identificação de padrões e insights importantes para a tomada de decisões.
+
+README
+markdown
+Copiar código
+# Análise Exploratória de Dados
+
+Este projeto é uma ferramenta para realizar análise exploratória de dados com foco em arquivos CSV. Ele carrega dados a partir de URLs e gera diversas visualizações para ajudar na interpretação dos dados.
+
+## Funcionalidades
+
+- **Carregar Dados:** Suporta URLs de arquivos CSV, incluindo links do Google Drive.
+- **Análise Exploratória:** Exibe as primeiras linhas do DataFrame, informações gerais e estatísticas descritivas.
+- **Visualizações:**
+  - Histograma
+  - Gráfico de Barras
+  - Gráfico de Pizza
+  - Gráfico de Linha
+  - Gráfico de Dispersão
+  - Boxplot
+  - Matriz de Correlação
+- **Análise Especializada:** Espaço para insights e conclusões personalizadas.
+
+## Requisitos
+
+- Python 3.x
+- Pandas
+- Matplotlib
+- Seaborn
+- Requests
+
+## Instalação
+
+Clone o repositório e instale as dependências:
+
+```bash
+git clone <URL_DO_REPOSITORIO>
+cd <DIRETORIO_DO_REPOSITORIO>
+pip install -r requirements.txt
+Uso
+Edite a lista de URLs no arquivo main com os links dos seus arquivos CSV.
+Execute o script:
+bash
+Copiar código
+python main.py
+O script carregará os dados, realizará a análise exploratória e exibirá as visualizações correspondentes.
+
+Contribuições
+Contribuições são bem-vindas. Sinta-se à vontade para fazer um fork do repositório e enviar pull requests.
